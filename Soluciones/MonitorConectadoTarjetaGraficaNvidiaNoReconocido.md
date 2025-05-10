@@ -18,6 +18,8 @@ Tras realizar una **actualización completa** de Kali Linux o tras una **instala
 
 ```bash
 $ xrandr
+```
+```bash
 Screen 0: minimum 320 x 200, current 1366 x 768, maximum 16384 x 16384
 HDMI-1 connected primary 1366x768+0+0 (normal left inverted right x axis y axis) 410mm x 230mm
    1366x768      59.79*+
@@ -32,6 +34,8 @@ DP-1 disconnected (normal left inverted right x axis y axis)
 
 ```bash
 $ lspci | grep -i vga
+```
+```bash
 00:02.0 VGA compatible controller: Intel Corporation CoffeeLake-S GT2 [UHD Graphics 630]
 01:00.0 VGA compatible controller: NVIDIA Corporation GP107 [GeForce GTX 1050 Ti] (rev a1)
 ```
@@ -40,6 +44,8 @@ $ lspci | grep -i vga
 
 ```bash
 $ nvidia-smi
+```
+```bash
 NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 ```
 
